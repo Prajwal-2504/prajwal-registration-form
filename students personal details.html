@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<div style="background-color: #ffff85;">
+<body>
+  <h2>Student's personal details</h2>
+  <form action="address and parents details.html" method="GET">
+    <label for="name">Enter your complete Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label>Select your Gender:</label>
+    <input type="radio" id="Male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="Female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label>
+    <br><br>
+
+    <label>Select your Date of Birth:</label>
+    <select name="birth_month" required>
+      <option value="">Month</option>
+      <option value="01">January</option>
+      <option value="02">February</option>
+      <option value="03">March</option>
+      <option value="04">April</option>
+      <option value="05">May</option>
+      <option value="06">June</option>
+      <option value="07">July</option>
+      <option value="08">August</option>
+      <option value="09">September</option>
+      <option value="10">October</option>
+      <option value="11">November</option>
+      <option value="12">December</option>
+    </select>
+    <select name="birth_day" required>
+      <option value="">Day</option>
+      <option value="01">1</option>
+      <option value="02">2</option>
+      <option value="03">3</option>
+      <option value="04">4</option>
+      <option value="05">5</option>
+      <option value="06">6</option>
+      <option value="07">7</option>
+      <option value="08">8</option>
+      <option value="09">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">39</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    <select name="birthYear" required>
+      <option value="">Year</option>
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2002">2002</option>
+      <option value="2003">2003</option>
+      <option value="2004">2004</option>
+      <option value="2005">2005</option>
+      <option value="2006">2006</option>
+      <option value="2007">2007</option>
+      <option value="2008">2008</option>
+      <option value="2009">2009</option>
+      <option value="2010">2010</option>
+      <option value="2011">2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+    </select><br><br>
+
+    <label for="mobile">Enter your Mobile Number:</label>
+    <input type="number" id="mobile" name="mobile" required><br><br>
+
+    <label for="email">Enter your Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Select martial status:</label>
+    <select name="martial_status" required>
+     	<option value="">martial_status</option>
+     	<option value="Married">Married</option>
+     	<option value="Unmarried">Unmarried</option>
+    </select><br><br>
+
+    <label>Select your Blood Group:</label>
+    <select name="blood_group" required>
+      <option value="">blood_group</option>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+    </select><br><br>	
+
+    <label for="name">Enter your birth place(include both city and state):</label>
+    <input type="text" id="birth_place" name="birth_place" required><br><br>
+
+    <label>Select your Quota:</label>
+    <select name="Quota" required>
+      <option value="">Quota</option>
+      <option value="General">General</option>
+      <option value="SC">SC</option>
+      <option value="ST">ST</option>
+      <option value="OBC">OBC</option>
+    </select><br><br>	
+
+    <label>Select preferred course:</label>
+    <select name="Course" required>
+     	<option value="">Course</option>
+     	<option value="B.Tech">Bachelor of Technology(B.Tech)</option>
+     	<option value="B.B.A.">Bachelor of Business Administration(B.B.A.)</option>
+     	<option value="B.C.A.">Bachelor of Computer Applications(B.C.A.)</option>
+	<option value="B.Com">Bachelor of Commerce(B.Com)</option>
+	<option value="B.Arts">Bachelor of Arts(B.Arts)</option>
+	<option value="B.Arch">Bachelor of Architecture(B.Arch)</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit and move to next page">
+    <input type="reset" class="reset" value="Reset">
+  </form>
+</body>
+</style>
+</html>
